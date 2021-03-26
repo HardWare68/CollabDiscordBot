@@ -21,9 +21,13 @@ client.on('ready', () => {
     case "hello":
       message.channel.send("Hello!");
       break;
+      
+    //the scientifically proven funniest joke ever
     case "joe":
       message.channel.send("Mama");
       break;
+      
+    //shout out to the original "G" issue (#10) on GithuB
     case "g":
       message.channel.send("lmao");
       break;
