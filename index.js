@@ -20,6 +20,10 @@ client.on('ready', () => {
     //just says hello
     case "hello":
       message.channel.send("Hello!");
+      break;
+    case "joe":
+      message.channel.send("Mama");
+      break;
   } 
  });
 
