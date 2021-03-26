@@ -24,7 +24,7 @@ client.on('ready', () => {
     case "joe":
       message.channel.send("Mama");
       break;
-    case "G"
+    case "G":
       message.channel.send("lmao");
       break;
   } 
