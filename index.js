@@ -31,6 +31,11 @@ client.on('ready', () => {
     case "g":
       message.channel.send("lmao");
       break;
+
+    //lol
+    case "fart":
+      message.channel.send("*vine boom sound effect*");
+      break;
   } 
  });
 
