@@ -33,6 +33,7 @@ client.on('ready', () => {
       break;
 
     //21st century humour
+    case "fart":
     case "fard":
       message.channel.send("*vine boom sound effect*");
       break;
