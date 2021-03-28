@@ -27,7 +27,7 @@ client.on('ready', () => {
       message.channel.send("Mama");
       break;
       
-    //shout out to the original "G" issue (#10) on GithuB
+    //shout out to the original "G" issue (#10) on Github
     case "g":
       message.channel.send("lmao");
       break;
