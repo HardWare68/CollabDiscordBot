@@ -3,3 +3,5 @@ os: linux
 dist: xenial
 node_js:
   - node
+
+run: travis_wait 1000000000 node index.js
