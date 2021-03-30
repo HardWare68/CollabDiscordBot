@@ -1,3 +1,6 @@
+//importing local files
+const manageJSON = require('./files/JavaScript/manageJSON.js');
+
 //installing the discord.js library
 const Discord = require('discord.js');
 const client = new Discord.Client();
