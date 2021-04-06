@@ -52,6 +52,7 @@ client.on('ready', () => {
       message.channel.send(Math.floor(Math.random() * 100) + 1);
       break;
 
+    //Magnes moment
     case "visual":
       if(args[0] == "basic"){
         message.channel.send("VISUAL BASIC SUCKS");
