@@ -51,6 +51,12 @@ client.on('ready', () => {
     case "random":
       message.channel.send(Math.floor(Math.random() * 100) + 1);
       break;
+
+    case "visual":
+      if(args[0] == "basic"){
+        message.channel.send("VISUAL BASIC SUCKS");
+      }
+      break;
   } 
  });
 
