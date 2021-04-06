@@ -54,6 +54,8 @@ client.on('ready', () => {
 
     //Magnes moment
     case "visual":
+      //pay attention to what i did here fellas, this is important
+      //will probably remove this comment later on down the line
       if(args[0] == "basic"){
         message.channel.send("VISUAL BASIC SUCKS");
       }
