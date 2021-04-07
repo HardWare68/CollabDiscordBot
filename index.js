@@ -51,7 +51,7 @@ client.on('ready', () => {
     
     //random number 1 to 100
     case "random":
-      if(args[0] == undefined) {
+      if(args[0] == undefined || args[1] == undefined) {
         message.channel.send(Math.floor(Math.random() * 100) + 1); 
       } else {
         message.channel.send(randomNum.randomNumber(args[0], args[1]));
