@@ -51,7 +51,11 @@ client.on('ready', () => {
     
     //random number 1 to 100
     case "random":
-      message.channel.send(randomNum.randomNumber(args[0], args[1]));
+      if(args[0] == undefined) {
+        message.channel.send(Math.floor(Math.random() * 100) + 1); 
+      } else {
+        message.channel.send(randomNum.randomNumber(args[0], args[1]));
+      }
       break;
 
     //Magnes moment
