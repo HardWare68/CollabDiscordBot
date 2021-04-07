@@ -51,13 +51,14 @@ client.on('ready', () => {
     
     //random number 1 to 100
     case "random":
-      if(typeof args[0] != number || typeof args[1] != number){
-        message.channel.send("Please use numbers as the arguments.");
-        break;
-      }
       if(args[0] == undefined || args[1] == undefined) {
         message.channel.send(Math.floor(Math.random() * 100) + 1); 
-      } else {
+        break;
+      }
+      if(isNaN(args[0]) || isNaN(args[1])){
+        message.channel.send("Please use numbers as the arguments.");
+        break;
+      }else {
         message.channel.send(randomNum.randomNumber(args[0], args[1]));
       }
       break;
