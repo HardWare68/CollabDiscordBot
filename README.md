@@ -26,7 +26,7 @@ Responds with `STOP POSTING ABOUT AMONG US! I'M TIRED OF SEEING IT! MY FRIENDS O
 
 
 - `~random`
-Responds with a random number from 1 to 100
+Depending on the arguments you gibve
 
 
 - `~visual`
