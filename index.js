@@ -1,5 +1,6 @@
 //importing local files
 const manageJSON = require('./files/JavaScript/manageJSON.js');
+const randomNum = require('./files/JavaScript/randomNum.js');
 
 //installing the discord.js library
 const Discord = require('discord.js');
@@ -50,7 +51,7 @@ client.on('ready', () => {
     
     //random number 1 to 100
     case "random":
-      message.channel.send(Math.floor(Math.random() * 100) + 1);
+      message.channel.send(randomNum.randomNumber());
       break;
 
     //Magnes moment
