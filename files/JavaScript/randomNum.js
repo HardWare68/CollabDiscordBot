@@ -1,5 +1,5 @@
-function randomNumber(){
-  return Math.floor(Math.random() * 100) + 1;
+function randomNumber(paramUpper, paramLower){
+  return Math.floor(Math.random() * (paramUpper+paramLower)) + paramLower;
 }
 
-module.exports = {randomNumber};
+module.exports = {randomNumber}
