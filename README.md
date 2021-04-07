@@ -26,7 +26,10 @@ Responds with `STOP POSTING ABOUT AMONG US! I'M TIRED OF SEEING IT! MY FRIENDS O
 
 
 - `~random`
-Depending on the arguments you gibve
+Depending on the arguments you give:
+  - Giving no arguments or only one argument will result in a random number 1 to 100
+  - Giving two invalid arguments will return a message stating `Please use numbers as the arguments.`
+  - Giving two numerical arguments will return a random number between those two numbers
 
 
 - `~visual`
