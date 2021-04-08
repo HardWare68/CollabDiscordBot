@@ -80,6 +80,16 @@ client.on('ready', () => {
     case "blaisin":
       message.channel.send("https://www.youtube.com/watch?v=omjdcWK0v7U");
       break;
+    
+    //burger
+    case "paceman":
+      message.channel.send("https://www.youtube.com/watch?v=HRCHpe6toD0");
+      break;
+    
+    //no stop what are you doing
+    case "hardware":
+      message.channel.send("horny");
+      break;
   } 
  });
 

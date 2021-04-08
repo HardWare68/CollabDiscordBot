@@ -37,3 +37,9 @@ If the arguents (next words passed after visual) are `basic` AND `sucks`, the bo
 
 - `~blaisin`
 Responds with `https://www.youtube.com/watch?v=omjdcWK0v7U`
+
+- `~paceman`
+Responds with `https://www.youtube.com/watch?v=HRCHpe6toD0`
+
+- `~hardware`
+Responds with `horny`
