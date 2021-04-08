@@ -87,6 +87,7 @@ client.on('ready', () => {
       break;
     
     //no stop what are you doing
+    //horny
     case "hardware":
       message.channel.send("horny");
       break;
