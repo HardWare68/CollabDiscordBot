@@ -75,6 +75,11 @@ client.on('ready', () => {
         }
       }
       break;
+
+    //gaming laptop
+    case "blaisin":
+      message.channel.send("https://www.youtube.com/watch?v=omjdcWK0v7U");
+      break;
   } 
  });
 
