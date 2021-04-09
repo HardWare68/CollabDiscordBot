@@ -8,9 +8,9 @@ const client = new Discord.Client();
 
 const prefix = "~" //prefix for the bot
 
-//variables used later
+//variables used for the echo command
 var echoString = "";
-var x = 0;
+var echoWhile = 0;
 
 //logging in as the hardware bot
 client.on('ready', () => {
@@ -98,13 +98,13 @@ client.on('ready', () => {
 
     //bot repeats back to you what you say
     case "echo":
-      while (args[x] != undefined){
-        echoString = echoString + args[x] + " ";
-        x++;
+      while (args[echoWhile] != undefined){
+        echoString = echoString + args[echoWhile] + " ";
+        echoWhile++;
       }
       message.channel.send(echoString);
       echoString = "";
-      x = 0;
+      echoWhile = 0;
       break;
   } 
  });
