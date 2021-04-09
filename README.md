@@ -35,14 +35,18 @@ Depending on the arguments you give:
 - `~visual`
 If the arguents (next words passed after visual) are `basic` AND `sucks`, the bot will respond with `I agree.`. If the argument is ONLY `basic`, the bot will respond with `VISUAL BASIC SUCKS`. If the arguments are none of the above, the bot will not respond with anything.
 
+
 - `~blaisin`
 Responds with `https://www.youtube.com/watch?v=omjdcWK0v7U`
+
 
 - `~paceman`
 Responds with `https://www.youtube.com/watch?v=HRCHpe6toD0`
 
+
 - `~hardware`
 Responds with `horny`
 
+
 - `~echo`
-Responds with everything given after the command
+Responds with everything given after the command. If you say `~echo Hello world!`, the bot will respond with `Hello world!`.
