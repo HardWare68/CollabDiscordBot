@@ -96,6 +96,7 @@ client.on('ready', () => {
       message.channel.send("horny");
       break;
 
+    //bot repeats back to you what you say
     case "echo":
       while (args[x] != undefined){
         echoString = echoString + args[x] + " ";
