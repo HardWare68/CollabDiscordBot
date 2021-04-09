@@ -8,6 +8,10 @@ const client = new Discord.Client();
 
 const prefix = "~" //prefix for the bot
 
+//variables used later
+var echoString = "";
+var x = 0;
+
 //logging in as the hardware bot
 client.on('ready', () => {
  console.log(`Logged in as ${client.user.tag}!`);
@@ -90,6 +94,16 @@ client.on('ready', () => {
     //horny
     case "hardware":
       message.channel.send("horny");
+      break;
+
+    case "echo":
+      while (args[x] != undefined){
+        echoString = echoString + args[x] + " ";
+        x++;
+      }
+      message.channel.send(echoString);
+      echoString = "";
+      x = 0;
       break;
   } 
  });

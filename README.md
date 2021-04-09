@@ -43,3 +43,6 @@ Responds with `https://www.youtube.com/watch?v=HRCHpe6toD0`
 
 - `~hardware`
 Responds with `horny`
+
+- `~echo`
+Responds with everything given after the command
