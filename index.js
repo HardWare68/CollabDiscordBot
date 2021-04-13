@@ -106,6 +106,17 @@ client.on('ready', () => {
       echoString = "";
       echoWhile = 0;
       break;
+    
+    //bot repeats back to you what you say, but angrily
+    case "echoloud":
+      while (args[echoWhile] != undefined){
+        echoString = echoString + args[echoWhile] + " ";
+        echoWhile++;
+      }
+      message.channel.send("**"+echoString.toUpperCase()+"**");
+      echoString = "";
+      echoWhile = 0;
+      break;
   } 
  });
 

@@ -50,3 +50,7 @@ Responds with `horny`
 
 - `~echo`
 Responds with everything given after the command. If you say `~echo Hello world!`, the bot will respond with `Hello world!`.
+
+
+- `~echoloud`
+Responds with everything given after the command in all capital letters and in bold text. If you say `~echoloud Hello world!`, the bot will respond with **`HELLO WORLD!`**
