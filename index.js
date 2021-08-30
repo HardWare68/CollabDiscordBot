@@ -1,16 +1,13 @@
 //importing local files
 const manageJSON = require('./files/JavaScript/manageJSON.js');
 const randomNum = require('./files/JavaScript/randomNum.js');
+const echoing = require('./files/JavaScript/echo.js');
 
 //installing the discord.js library
 const Discord = require('discord.js');
 const client = new Discord.Client();
 
 const prefix = "~" //prefix for the bot
-
-//variables used for the echo command
-var echoString = "";
-var echoWhile = 0;
 
 //logging in as the hardware bot
 client.on('ready', () => {
@@ -98,24 +95,12 @@ client.on('ready', () => {
 
     //bot repeats back to you what you say
     case "echo":
-      while (args[echoWhile] != undefined){
-        echoString = echoString + args[echoWhile] + " ";
-        echoWhile++;
-      }
-      message.channel.send(echoString);
-      echoString = "";
-      echoWhile = 0;
+      message.channel.send(echoing.echo(args));
       break;
     
     //bot repeats back to you what you say, but angrily
     case "echoloud":
-      while (args[echoWhile] != undefined){
-        echoString = echoString + args[echoWhile] + " ";
-        echoWhile++;
-      }
-      message.channel.send("**"+echoString.toUpperCase()+"**");
-      echoString = "";
-      echoWhile = 0;
+      message.channel.send(echoing.echoLoud(args));
       break;
   } 
  });
